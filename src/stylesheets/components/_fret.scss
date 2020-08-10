@@ -1,11 +1,21 @@
 .fret {
-    flex: 1 1 auto;
-    border: 1px solid white;
+    flex: 3 3 auto;
     height: 100%;
     background: brown;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fret {
+    border-right: 3px solid $color-mono-100;
+}
+
+.fret:first-of-type {
+    flex: 1 1 1px;
+    background: $color-mono-20;
+    border-left: 3px solid $color-mono-30;
+    border-right: 3px solid $color-mono-30;
 }
 
 .fret-inlay {

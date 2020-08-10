@@ -1,0 +1,19 @@
+.fret {
+    flex: 1 1 auto;
+    border: 1px solid white;
+    height: 100%;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fret-inlay {
+    width: 50%;
+    height: 25%;
+    background: white;
+}
+
+.fret-inlay--alternate {
+    height: 50%;
+}

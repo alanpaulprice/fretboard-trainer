@@ -5,17 +5,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.fret {
-    border-right: 3px solid $color-mono-100;
+    border: 3px solid $color-mono-100;
+    border-left-width: 0px;
 }
 
 .fret:first-of-type {
     flex: 1 1 1px;
     background: $color-mono-20;
-    border-left: 3px solid $color-mono-30;
-    border-right: 3px solid $color-mono-30;
+    border-color: $color-mono-30;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
 }
 
 .fret-inlay {
